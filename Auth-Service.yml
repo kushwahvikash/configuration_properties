@@ -3,6 +3,11 @@ spring:
     username: root
     password: root
     url: jdbc:mysql://localhost:3306/vikasit_ecomdb
+  application:
+    jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true 
   boot:
     admin:
       client:
