@@ -18,4 +18,11 @@ management:
     web:
       exposure:
         include: '*'
+auth-service:
+  messages:
+    userReg: User created..!
+    userRegErr: User creatation failed..!  
+    loggedIn: login success
+    loginErr: invalid creadential..!
+                
      
