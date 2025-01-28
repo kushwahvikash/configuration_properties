@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/vikasit_ecomdb
+  jpa:
+    hibernate:
+        ddl-auto: update
+    show-sql: true 
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/ 
+server:
+  port: 8081
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
